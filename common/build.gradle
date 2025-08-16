@@ -3,7 +3,7 @@ architectury {
 }
 
 loom {
-    accessWidenerPath = file("src/main/resources/grounded.accesswidener")
+    accessWidenerPath = file("src/main/resources/realisticsurvival.accesswidener")
 }
 
 dependencies {

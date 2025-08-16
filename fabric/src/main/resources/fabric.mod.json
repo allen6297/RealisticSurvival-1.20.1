@@ -17,7 +17,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.ordana.grounded.fabric.GroundedFabric"
+      "com.kalob.realisticsurvival.fabric.RSFabric"
     ]
   },
   "mixins": [

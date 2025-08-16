@@ -94,3 +94,15 @@ publishing {
 repositories {
     maven { url "https://maven.terraformersmc.com/releases" }
 }
+
+loom {
+    runs {
+        client {
+            programArg "--username=Dev"
+            programArg "--uuid=00000000-0000-0000-0000-000000000000"
+            programArg "--accessToken=0"
+            // keep dev data separate (optional)
+            programArg "--gameDir=.minecraft-dev"
+        }
+    }
+}
